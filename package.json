@@ -1,0 +1,27 @@
+{
+  "name": "node-03",
+  "version": "1.0.0",
+  "description": "webpack tutorial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Victor Sosnovskiy",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "css-loader": "^0.27.0",
+    "express": "^4.15.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "handlebars": "^4.0.6",
+    "handlebars-loader": "^1.4.0",
+    "progress-bar-webpack-plugin": "^1.9.3",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
